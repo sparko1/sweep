@@ -1,0 +1,53 @@
+body {
+	font-family: $body-font-family;
+  font-weight: $body-font-weight;
+  font-size: $body-font-size;
+	background-color: $body-background-color;
+  color: $body-color;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+}
+
+a {
+  color: $link-color;
+  word-wrap: break-word;
+  transition: all 0.2s ease;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  color: $link-hov-foc;
+  outline: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: $heading-font-family;
+  }
+
+h1, h2, h3 {
+	color: $heading-color-special;
+  font-weight: $heading-font-weight-special;
+}
+
+p {
+  line-height: $paragraph-line-height;
+}
+
+blockquote {
+	border-color: $blockquote-color;
+}
+
+ hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/* Tone down field labels */
+label {
+	font-weight: 300;
+}

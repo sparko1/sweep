@@ -1,0 +1,33 @@
+---
+layout: page
+title: Blog
+changefreq: weekly
+---
+
+<div class="content-header">
+  <h2>Reviews</h2>
+  <h4>What Our Customers Say</h4>
+</div>
+
+<div class="row row-blog-loop">
+{% for post in site.posts reversed %}
+
+<div class="col-md-4 col-sm-6">
+
+<div class="blog-text1 thumbnail" style="background-image: url( '{{post.thumbnail | prepend: site.baseurl}}' );">
+
+  <div class="headings">
+    <a href="{{ post.url | prepend: site.baseurl }}">
+      <h1>{{ post.title }}</h1>
+    </a>
+    <p>Post Date: {{ post.date | date: "%b %-d, %Y" }}</p>
+  </div> <!-- end headings -->
+
+  <a href="{{ post.url | prepend: site.baseurl }}" class="btn btn-primary btn-lg" id="post-button">Read Post</a>
+
+ </div> <!-- end blog-text1 -->
+
+</div> <!-- end cols -->
+
+{% endfor %}
+</div> <!-- end row -->

@@ -1,0 +1,78 @@
+@media only screen and (max-width : 1200px) {
+  form#pc-form{
+
+    #contact-text1{
+      background-color: #fff;
+      min-height: auto;
+      margin: 0 0 15px 0;
+
+      .form-group-1{
+        margin-top: 10px;
+        text-align: center;
+        input{
+          height: 50px;
+          width: 80%;
+          border: 3px solid #337AB7;
+        }
+      }
+
+      .form-group-2{
+        margin-top: 25px;
+        margin-bottom: 10px;
+        text-align: center;
+        input{
+          height: 50px;
+          width: 80%;
+          border: 3px solid #337AB7;
+        }
+      }
+
+    } // end col 2
+
+    #contact-text2{
+      min-height: auto;
+      background-color: #fff;
+      padding: 15px;
+
+      .form-group-3{
+        margin-top: 10px;
+        text-align: center;
+        textarea{
+          height: 175px;
+          width: 80%;
+          border: 3px solid #337AB7;
+        }
+
+      } // end form group 3
+
+      .form-group-4{
+        margin-top: 25px;
+        margin-bottom: 10px;
+        text-align: center;
+
+        input{
+          padding: 10px;
+          color: #fff;
+          background-color: #337AB7;
+          border: none;
+          transition: all 0.3s ease-in-out;
+
+          &:hover, &:focus{
+            background-color: lighten(#337AB7, 20%);
+          }
+        }
+      } //end form group 4
+
+    } //end col 2
+
+  } //end form
+} //end mq 1200
+
+@media only screen and (max-width : 992px) {}
+
+@media only screen and (max-width : 768px) {} // end mq 768px
+
+@media only screen and (max-width : 480px) {} // end mq 480px
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {} // end 320 mq

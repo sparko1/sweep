@@ -1,0 +1,37 @@
+#masthead-1{
+
+  .navbar-default{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background-color: transparent;
+    border: none;
+  }
+
+  .navbar-default .navbar-collapse{
+    text-align: center;
+  }
+
+  .navbar-default .navbar-collapse ul.navbar-nav{
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+  }
+
+  .navbar-default .navbar-collapse ul.navbar-nav li a{
+    color: #fff;
+    padding: 20px;
+    &:hover, &:focus{
+      color: $nice-black;
+    }
+    &.current{
+      color: $nice-black;
+    }
+  }
+
+  .navbar-default .navbar-collapse ul.navbar-nav li.active a{
+    background-color: transparent;
+    color: $nice-black;
+  }
+
+} //end masthead-1

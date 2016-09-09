@@ -1,0 +1,35 @@
+@media only screen and (max-width : 1200px) {}
+
+@media only screen and (max-width : 992px) {}
+
+@media only screen and (max-width : 768px) {
+
+  #pc-cards-row{
+    .home-card{
+      border-bottom: 1px solid #ccc;
+    }
+
+    #card-3{
+      margin-top: 5%;
+    }
+
+  } //end row
+
+} // end mq 768px
+
+//custom mobile menu breakpoint
+@media only screen and (max-width : 767px) {
+
+  #pc-cards-row{
+
+    #card-3{
+      margin-top: 0;
+    }
+
+  } //end row
+} // end 767px mq
+
+@media only screen and (max-width : 480px) {} // end mq 480px
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {} // end 320 mq

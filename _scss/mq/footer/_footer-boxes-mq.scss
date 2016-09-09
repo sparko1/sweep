@@ -1,0 +1,24 @@
+@media only screen and (max-width : 1200px) {}
+
+@media only screen and (max-width : 992px) {}
+
+
+@media only screen and (max-width : 768px) {
+  .pc-box-bottom #box1_container{margin-bottom: 5px;}
+  .pc-box-bottom #box2_container{margin-bottom: 5px;}
+  .pc-box-bottom #box3_container{margin-bottom: 0;}
+  .pc-box-bottom #box4_container{margin-bottom: 0;}
+} // end mq 768px
+
+//custom mobile menu breakpoint
+@media only screen and (max-width : 767px) {
+  .pc-box-bottom #box1_container{margin-bottom: 5px;}
+  .pc-box-bottom #box2_container{margin-bottom: 5px;}
+  .pc-box-bottom #box3_container{margin-bottom: 5px;}
+  .pc-box-bottom #box4_container{margin-bottom: 0;}
+}
+
+@media only screen and (max-width : 480px) {} // end mq 480px
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {} // end 320 mq

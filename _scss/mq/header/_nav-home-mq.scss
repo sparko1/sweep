@@ -1,0 +1,71 @@
+@media only screen and (max-width : 1200px) {}
+@media only screen and (max-width : 992px) {}
+
+@media only screen and (max-width : 768px) {
+  #masthead-1{
+    .navbar-default{
+      width: 60%;
+    }
+  }
+} // end mq 768px
+
+// **** custom for mobile menu toggle ******
+@media only screen and (max-width : 767px) {
+  #masthead-1{
+    .navbar-default{
+      width: auto;
+      position: relative;
+      left: 50%;
+      top: 0;
+      transform: translateX(-50%);
+      background-color: transparent;
+    }
+
+    .navbar-default .navbar-collapse ul.navbar-nav{
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      background-color: fade-out(#ccc, 0.55);
+      margin-bottom: 20px;
+    }
+
+    .navbar-default .navbar-header{
+      min-height: 117px;
+    }
+
+    .navbar-default .navbar-header button.navbar-toggle{
+      background-color: #fff;
+      &:hover{
+        background-color: darken(#fff, 10%);
+      }
+    }
+  }
+
+} // end mq 768px
+
+
+@media only screen and (max-width : 480px) {
+  #masthead-1{
+
+    .navbar-default .navbar-header{
+      min-height: 110px;
+    }
+
+    .navbar-default .navbar-header .navbar-toggle{
+      position: relative;
+    }
+
+
+  }
+
+} //end 480px mq
+
+
+/*  ****** Custom, iPhone Retina **************  */
+@media only screen and (max-width : 320px) {
+  #masthead-1{
+    .navbar-default .navbar-header{
+      min-height: 100px;
+    }
+  }
+
+} // end 320px

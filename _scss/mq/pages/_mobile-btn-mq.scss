@@ -1,0 +1,24 @@
+@media only screen and (max-width : 1200px) {}
+
+@media only screen and (max-width : 992px) {  // medium
+}
+
+@media only screen and (max-width : 768px) {  //small
+} // end mq 768px
+
+@media only screen and (max-width : 767px) {  //custom
+
+  #pc-phone-btn{
+    width: 33%;
+    
+  }
+} // end mq 767px
+
+
+
+
+@media only screen and (max-width : 480px) {  // extra small
+} // end mq 480px
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {} // end 320 mq

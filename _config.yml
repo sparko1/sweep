@@ -1,0 +1,14 @@
+# Site settings
+name: Village Sweep
+slogan: Chimney And Boiler Services
+url: villagesweep.org
+baseurl: ""
+description: Village Sweep is a Belfast based chimney sweeping and boiler maintenance business. We also offer professional stove fitting and flue lining services
+email: sparkosone@hotmail.com
+
+# Build settings
+permalink: pretty
+exclude: ["node_modules", "bower_components", "font-awesome-4.5.0", "gulpfile.js", "bower.json", "package.json", "js", "frog_up.sh"]
+
+gems:
+  - jekyll-sitemap

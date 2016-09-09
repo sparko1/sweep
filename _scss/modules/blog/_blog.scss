@@ -1,0 +1,31 @@
+.row-blog-loop{
+  margin-bottom: 5%;
+  background-color: lighten(#999, 30%);
+}
+
+.row-blog-loop{
+  padding-top: 15px;
+
+  .blog-text1{
+    background-color: #fff;
+    height: 350px;
+    width: auto;
+    margin-bottom: 15px;
+    text-align: center;
+    position: relative;
+  }
+
+  .blog-text1 .headings{
+      background-color: fade-out(#ccc, 0.05);
+      h1{ margin: 0;}
+      p{margin: 0;}
+  } //end headings
+
+  .blog-text1 #post-button{
+    position: absolute;
+    bottom: 3px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+} //end .row-blog-loop

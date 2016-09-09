@@ -1,0 +1,34 @@
+@media only screen and (max-width : 1200px) {
+  .text-row .home-text1{
+    margin-bottom: 10px;
+    min-height: 0;
+  }
+
+  .text-row .home-text2{
+    margin-bottom: 0;
+    min-height: 0;
+  }
+}
+
+@media only screen and (max-width : 992px) {  // medium
+
+}
+
+@media only screen and (max-width : 768px) {    //small
+
+} // end mq 768px
+
+@media only screen and (max-width : 480px) {  // extra small
+
+  .text-row .home-text1{
+    margin-bottom: 5px;
+  }
+
+  .text-row .home-text2{
+    margin-bottom: 0;
+  }
+
+} // end mq 480px
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {} // end 320 mq

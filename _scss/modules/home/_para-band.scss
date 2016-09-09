@@ -1,0 +1,56 @@
+#para-fluid{
+  margin-bottom: 5%;
+}
+
+#para-band-wrap{
+  padding: 0.3em;
+  background-color: #999;
+}
+
+#para-band-wrap #para-col #para-window{
+  position: relative;
+  width: 600px;
+  height: 300px;
+  border-radius: 50%;
+  background-image: url('../images/bands/belfast-para.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+#para-band-wrap #para-col #para-window #para-curtain{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 600px;
+  height: 300px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  background-color: fade-out(#999, 0.55);
+
+  #para-caption{
+    color: #fff;
+
+    h4{
+      font-size: 38px;
+      font-family: 'Lobster', cursive;
+      margin: 0 0 12px 0;
+    }
+    p{
+      font-size: 26px;
+      text-transform: lowercase;
+      margin: 5px 0;
+    }
+
+    #text-mover{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    } //end text-mover
+
+  } // end para cation
+} //end of curtain

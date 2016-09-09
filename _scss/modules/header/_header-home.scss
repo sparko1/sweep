@@ -1,0 +1,82 @@
+#masthead-1{
+  min-height: 500px;
+  width: 100%;
+  background-image: url('../images/headers/chimney-3.jpg');
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+#masthead-1 #branding{
+  width: 19em;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  background-color: transparent;
+  border: none;
+  border: solid 1px #fff;
+  border-radius: 10px;
+
+  h1{
+    padding: 0;
+    margin: 0.3em 0;
+  }
+  h1 a{
+    font-size: 35px;
+    display: block;
+    font-family: 'Marcellus', serif;
+    color: #fff;
+    margin: 0;
+    &:hover, &:focus{
+      color: darken(#fff, 10%);
+      text-decoration: none;
+    }
+  }
+  h2{
+    font-size: 16px;
+    margin: 0.3em 0;
+    color: $nice-black;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+}
+
+#masthead-1 #pc-header-boxes{
+  width: 45%;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#masthead-1 #pc-header-boxes #pc-header-box-1{
+  position: relative;
+  background-color: fade-out(#ccc, 0.45);
+  float: left;
+  width: 49%;
+  height: 125px;
+  margin-bottom: 0;
+  p{
+    font-size: 18px;
+    padding: 0.3em;
+    color: $nice-black;
+    font-weight: bold;
+  }
+  a{
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+#masthead-1 #pc-header-boxes #pc-header-box-2{
+  @extend #pc-header-box-1;
+  float: right;
+  h4{
+    padding: 0.3em;
+    color: $nice-black;
+    font-weight: bold;
+  }
+}

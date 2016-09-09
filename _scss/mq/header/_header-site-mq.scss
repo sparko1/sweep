@@ -1,0 +1,48 @@
+@media only screen and (max-width : 1200px) {
+
+  #masthead-2 #pc-header-box-1{
+    display: none;
+  }
+
+}
+
+@media only screen and (max-width : 992px) {}
+
+@media only screen and (max-width : 768px) {
+
+  #masthead-2{
+    min-height: 375px;
+  }
+
+} // end mq 768px
+
+@media only screen and (max-width : 480px) {
+  #masthead-2{
+    min-height: 300px;
+  }
+
+  #masthead-2 #pc-header-box-1{
+    display: none;
+  }
+
+  #masthead-2 #branding{
+    h1 a{font-size: 26px;}
+    h2{font-size: 16px;}
+    width: 60%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+} // end mq 480px
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+  #masthead-2 #branding{
+    h1 a{font-size: 24px;}
+    h2{font-size: 14px;}
+    width: 60%;
+  }
+} // end 320 mq

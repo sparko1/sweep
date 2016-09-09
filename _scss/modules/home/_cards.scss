@@ -1,0 +1,52 @@
+#pc-cards-row{
+  margin-bottom: 5%;
+}
+
+#pc-cards-row .home-card{
+  padding: 15px;
+  h3{margin: 0 0 30px 0;}
+  p{
+    text-align: center;
+    margin: 0 0 30px 0;
+  }
+  .card-img-holder{
+    position: relative;
+    margin: 0 0 30px 0;
+  }
+  .card-img-holder .pc-curtain{
+    opacity: 0;
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    background-color: fade-out(#999, 0.1);
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom: 0;
+    .caption{
+      padding: 0 10px;
+      position: relative;
+      top: 100px;
+      margin-top: -39px;
+      color: #fff;
+      h4{
+        font-weight: 500;
+        margin: 5px 0;
+       }
+      p{
+        font-weight: 500;
+        margin: 5px 0;
+       }
+    }
+    transition: all 0.4s ease;
+    &.is-showing{
+      opacity: 1;
+    }
+  }
+
+  .card-img-holder img{
+    @include cardshad;
+  }
+
+} // end card

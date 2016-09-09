@@ -1,0 +1,102 @@
+@media only screen and (max-width : 1200px) {}
+
+@media only screen and (max-width : 992px) {}
+
+@media only screen and (max-width : 768px) {
+
+  #footer-section-1{
+    #footer-box-1{
+      margin-bottom: 40px;
+    }
+  } //end footer row 1
+
+  #footer-section-2{
+
+    #footer-nav-holder{
+  		text-align: left;
+  	}
+
+  	#date{
+      text-align: right;
+  		span{
+  			font-size: 22px;
+  		}
+  	}
+
+  } //end footer section 2
+
+} // end mq 768px
+
+//custom mobile menu breakpoint
+@media only screen and (max-width : 767px) {
+
+  #footer-section-1{
+
+    #footer-box-1{
+      margin-bottom: 40px;
+    }
+
+    #footer-box-2{
+      margin-bottom: 40px;
+    }
+
+    #footer-box-3{
+
+      ul#social{
+        margin-bottom: 0;
+      }
+
+    } //end box 3
+
+  } //end footer section 1
+
+  #footer-section-2{
+
+    #footer-nav-holder{
+      text-align: center;
+      margin: 0 0 20px 0;
+    }
+
+    #date{
+      text-align: center;
+      span{
+        font-size: 22px;
+      }
+    }
+
+  } //end footer section 2
+
+} // end 767px mq
+
+@media only screen and (max-width : 480px) {
+
+  #footer-section-2{
+
+    ul{
+      li a{
+        font-size: 16px;
+      }
+    } //end ul
+
+    #footer-nav-holder{
+      text-align: center;
+      margin: 0 0 20px 0;
+    }
+
+  } //end footer section 2
+
+
+} //end 480px
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+  #footer-section-2{
+
+    #footer-nav-holder ul#footer-nav li a{
+      font-size: 14px;
+    }
+
+  } //end footer section 2
+
+} // end 320 qm

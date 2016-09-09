@@ -1,0 +1,56 @@
+@mixin pc-gallery{
+	height: 100%;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+@mixin grad{
+	background: linear-gradient(to bottom right, $nanadark, $nanacolor, $nanalight);
+}
+
+@mixin underline{
+	margin: 0 0 20px 0;
+	padding: 0 0 9px 0;
+	border-bottom: 1px solid lighten(#999, 20%);
+}
+
+@mixin underline-heading{
+	margin: 0 0 4px 0;
+	padding: 10px 10px 5px 10px;
+	border-bottom: 1px solid lighten(#999, 20%);
+}
+
+@mixin boxshad{
+	box-shadow: 1px 1px 3px lighten(#999, 15%);
+}
+
+@mixin cardshad{
+	box-shadow: 2px 2px 3px 1px lighten(#ccc, 0.5%);
+}
+
+@mixin butshad{
+	box-shadow: 2px 2px 3px lighten(#999, 10%);
+}
+
+@mixin clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+@mixin top-center{
+	position: absolute;
+	top: 0;
+	right: 50%;
+	transform: translateX(50%);
+	}
+
+@mixin bottom-center{
+	position: absolute;
+	bottom: 0;
+	right: 50%;
+	transform: translateX(50%);
+}

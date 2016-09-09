@@ -1,0 +1,21 @@
+.text-row{
+  margin-bottom: 5%;
+  padding: 15px 0;
+  border: 1px solid lighten(#337AB7, 50%);
+  background-color: lighten(#999, 30%);
+}
+
+.text-row .home-text1,
+.text-row .home-text2{
+  min-height: 365px;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid lighten(#337AB7, 50%);
+  h3{
+    margin: 15px 0;
+  }
+  p{
+    text-align: left;
+    margin: 11px 0;
+  }
+}

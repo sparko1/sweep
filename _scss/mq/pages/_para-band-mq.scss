@@ -1,0 +1,60 @@
+@media only screen and (max-width : 1200px) {}
+
+@media only screen and (max-width : 992px) {}
+
+@media only screen and (max-width : 768px) {
+
+  #para-band-wrap #para-col #para-window{
+    width: 396px;
+    height: 198px;
+  }
+
+  #para-band-wrap #para-col #para-window #para-curtain{
+
+    width: 396px;
+    height: 198px;
+
+    #para-caption{
+      h4{
+        font-size:32px;
+        margin: 2px 0;
+      }
+      p{
+        font-size: 22px;
+        margin: 2px 0;
+      }
+    } //end caption
+  } //end of curtain
+
+} // end mq 768px
+
+
+@media only screen and (max-width : 480px) {
+
+  #para-band-wrap #para-col #para-window{
+    width: 261.36px;
+    height: 130.68px;
+
+  }
+
+  #para-band-wrap #para-col #para-window #para-curtain{
+
+    width: 261.36px;
+    height: 130.68px;
+
+    #para-caption{
+      h4{
+        font-size: 26px;
+        margin: 2px 0;
+      }
+      p{
+        font-size: 18px;
+        margin: 2px 0;
+      }
+    } //end caption
+  } //end of curtain
+
+} //end 480px mq
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {}

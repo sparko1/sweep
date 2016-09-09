@@ -1,0 +1,20 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.content-header{
+	background-color: #fff;
+	text-align: center;
+  margin: 5% 0;
+	h2{
+    font-size: 34px;
+		color: #666;
+		text-transform: uppercase;
+	}
+	h4{
+    font-size: 20px;
+		color: #666;
+		text-transform: lowercase;
+	}
+}

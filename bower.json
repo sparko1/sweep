@@ -1,0 +1,25 @@
+{
+  "name": "sparko1",
+  "description": "jekyll and bootstrap",
+  "main": "gulpfile.js",
+  "license": "ISC",
+  "homepage": "none",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "bootstrap-sass-official#^3.3.6"
+  },
+  "keywords": [
+    "jekyll",
+    "bootstrap",
+    "gulp"
+  ],
+  "authors": [
+    "paul crawford"
+  ]
+}

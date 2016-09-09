@@ -1,0 +1,37 @@
+#masthead-2{
+
+  .navbar-default{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 0;
+    background-color: fade-out(#ccc, 0.45);
+  }
+
+  .navbar-default .navbar-collapse{
+    text-align: center;
+  }
+
+  .navbar-default .navbar-collapse ul.navbar-nav{
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+  }
+
+  .navbar-default .navbar-collapse ul.navbar-nav li a{
+    color: #fff;
+    padding: 20px;
+    &:hover, &:focus{
+      color: $nice-black;
+    }
+    &.current{
+      color: $nice-black;
+    }
+  }
+
+  .navbar-default .navbar-collapse ul.navbar-nav li.active a{
+    background-color: transparent;
+    color: $nice-black;
+  }
+} //end masthead-2

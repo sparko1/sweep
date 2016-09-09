@@ -1,0 +1,33 @@
+#fluid-1{
+  margin-bottom: 5%;
+}
+
+#color-band-1-wrap{
+  background-color: #999;
+
+  .band-column-1{
+    background-color: lighten(#424242, 20%);
+  }
+  .band-column-2{
+  }
+
+  #band-1-text{
+    padding: .5em;
+    margin: .5em 0;
+    border: 1px solid #fff;
+    color: #fff;
+    h4{margin: .1em 0; }
+    p{margin: .4em 0; }
+    h4{
+      text-align: center;
+      text-transform: uppercase;
+      line-height: 1.2;
+    }
+    p{
+      text-align: center;
+      text-transform: lowercase;
+      line-height: 1.1;
+    }
+  } // end band text
+
+}

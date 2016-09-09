@@ -1,0 +1,43 @@
+@media only screen and (max-width : 1200px) {}
+
+@media only screen and (max-width : 992px) {}
+
+@media only screen and (max-width : 768px) {
+
+
+  #color-band-1-wrap{
+    .band-column-1{}
+    .band-column-2{}
+
+    #band-1-text{
+      padding: .5em;
+      margin: .5em 0;
+      h2,p{margin: .2em 0;}
+      h2{font-size: 28px;}
+      p{text-align: center;
+        font-size: 18px;}
+    } // end band text
+  }
+
+
+} // end mq 768px
+
+//custom mobile menu breakpoint
+@media only screen and (max-width : 767px) {
+  #color-band-1-wrap{
+
+    .band-column-1{
+      border-bottom: 5px solid #fff;
+     }
+    .band-column-2{ }
+
+    #band-1-text{}
+
+  }
+
+} // end 767px mq
+
+@media only screen and (max-width : 480px) {} // end 480px mq
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {}
