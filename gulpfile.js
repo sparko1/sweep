@@ -38,7 +38,7 @@ gulp.task('styles', function() {
   .pipe(csso())
   .pipe(gulp.dest('_site/css'))
   .pipe(browserSync.stream())
-  .pipe(gulp.dest('./css'));
+  .pipe(gulp.dest('_includes/_css'));
 });
 
 

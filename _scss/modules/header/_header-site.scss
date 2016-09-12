@@ -1,6 +1,6 @@
  #masthead-2{
   min-height: 400px;
-  background-image: url('../images/headers/rooftops-4.jpg');
+  background-image: url('{{ site.baseurl }}/images/headers/rooftops-4.jpg');
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
